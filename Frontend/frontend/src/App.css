@@ -1,0 +1,18 @@
+.container-fluid {
+  padding: 15px;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+.cards{
+  margin-top: -3px;
+  overflow-y: auto;
+  overflow-x: hidden; 
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items:center;
+ justify-content:space-evenly;
+}
+

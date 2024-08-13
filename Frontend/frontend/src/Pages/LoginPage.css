@@ -1,0 +1,15 @@
+
+.login-component{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 103px;
+    padding: 25px;
+    border:2px solid lightgray;
+    border-radius: 23px;
+    width:600px;
+    margin-left: 323px;
+}
+.formcontrol{
+
+}

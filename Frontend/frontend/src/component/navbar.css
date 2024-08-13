@@ -1,0 +1,25 @@
+/* Ensure navbar items are spaced and aligned properly */
+.nav-link-custom {
+  padding: 1rem 1rem;
+}
+.navbar-nav {
+  flex: 1;
+  justify-content: space-around; /* Distribute space evenly */
+align-items: center;
+}
+
+/* Ensure that the navbar items are responsive */
+@media (max-width: 992px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+}
+
+.navbar-brand {
+  margin-right: 1rem;
+}
+
+/* Ensure button aligns properly with other nav items */
+.btn-outline-light {
+  margin-left: 0.5rem;
+}
